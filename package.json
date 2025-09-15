@@ -1,0 +1,20 @@
+{
+  "name": "inngest-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "inngest": "npx inngest-cli@latest dev -u http://localhost:3000/api/inngest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "npm@9.8.1+sha512.01f0ef4e1433b085e162093dce16e4e51fa587cd7594a90b01e40c3214b2a5fd4133bcd469f788201ccccdeb297ae544274f8bbd8dfaa114187fb20a2f3537af",
+  "dependencies": {
+    "express": "^5.1.0",
+    "inngest": "^3.40.3",
+    "nodemon": "^3.1.10"
+  }
+}
